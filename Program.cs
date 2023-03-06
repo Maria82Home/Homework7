@@ -12,8 +12,6 @@ double[,] CreateRandom2DArray()
   for (int i = 0; i < rows; i++)
     for (int j = 0; j < columns; j++)
     {  
-      //Random temp = new Random();
-      //array[i, j] = Math.Round(temp.NextDouble(),2);
       array[i,j]=(double)(new Random().Next(0,100))/10;
     }
   return array;
